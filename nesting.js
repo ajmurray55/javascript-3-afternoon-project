@@ -52,8 +52,11 @@ var employees = [
 
 //Code Here
 
-
-
+function employeeUpdater(){
+  employees.pop([2])
+  
+}
+console.log(employees)
 ////////// PROBLEM 2 //////////
 
 // Do not edit the code below.
