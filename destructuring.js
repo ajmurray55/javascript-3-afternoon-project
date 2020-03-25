@@ -124,11 +124,11 @@ function largeNumbers({ first, second, third }) {
 //Code Here
 
 function numberGroups({ a, b, c }) {
-  if (a.legnth > b.length && a.length > c.length){
-    return a
-  } else if (b.length > a.legnth && b.length > c.length){
-    return b
-  } else if (c.length > a.length && c.length > b.length){
-    return c
+  if (a.length > b.length && a.length > c.length) {
+    return a;
+  } else if (b.length > a.length && b.length > c.length) {
+    return b;
+  } else if (c.length > a.length && c.length > b.length) {
+    return c;
   }
 }
